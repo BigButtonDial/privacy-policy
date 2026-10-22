@@ -79,7 +79,7 @@
 <div class="container">
     <header>
         <h1>Privacy Policy for BigButton Dial™</h1>
-        <p class="effective-date">Effective Date: July 12, 2026</p>
+        <p class="effective-date">Effective Date: October 14, 2026</p>
     </header>
 
     <main>
@@ -89,7 +89,7 @@
         <hr>
 
         <h2>1. Information Collection and Use</h2>
-        <p>Our core philosophy is simple: <strong>Your personal identity belongs to you.</strong> We do not collect, store, or transmit your personally identifiable information to external servers. However, to monitor app stability and improve user experience, we collect anonymized, aggregated usage statistics as detailed below.</p>
+        <p>Our core philosophy is simple: <strong>Your personal identity belongs to you.</strong> We do not collect, store, or transmit your personally identifiable information to external servers. However, to monitor app stability and provide remote caregiver features, we collect anonymized, aggregated usage statistics and specific telemetry data as detailed below.</p>
 
         <h3>Personal Data</h3>
         <ul>
@@ -97,12 +97,12 @@
             <li><strong>On-Device Only:</strong> Any configuration data or app settings you choose to set up inside BigButton Dial™ remain stored strictly on your local device.</li>
         </ul>
 
-        <h3>Location Data</h3>
-        <p>To provide the weather forecasting features on your dashboard, the App requires access to your device's approximate location.</p>
+        <h3>Location and Telemetry Data</h3>
+        <p>To provide weather forecasting and remote caregiver monitoring (Guardian Companion App), the App requires access to your device's approximate location.</p>
         <ul>
-            <li><strong>Purpose:</strong> We use your approximate location strictly to fetch real-time weather updates for your general area.</li>
-            <li><strong>Processing:</strong> This data is processed dynamically and sent directly to our third-party weather data provider (Open-Meteo).</li>
-            <li><strong>Storage:</strong> We do not track your location in the background, nor do we store or share your historical location history.</li>
+            <li><strong>Purpose:</strong> We use your approximate location to fetch real-time weather updates and to provide a general "last known location" to your authorized caregiver during emergency escalations or inactivity alerts.</li>
+            <li><strong>Processing &amp; Transmission:</strong> This data is processed dynamically to fetch weather data from our third-party provider (Open-Meteo). Additionally, if you have linked a caregiver, telemetry payloads containing this approximate location, battery levels, device volume, and medication status are securely transmitted through our backend to your authorized caregiver's Guardian app.</li>
+            <li><strong>Storage:</strong> We do not track your location continuously in the background. The app caches your last known approximate location while the app is actively used in the foreground and temporarily stores it securely on your local device to transmit during background safety syncs. We do not store or share your historical location history on our servers.</li>
         </ul>
 
         <h2>2. Third-Party Services and SDKs</h2>
@@ -116,10 +116,12 @@
         </ul>
 
         <h2>3. Device Permissions Required</h2>
-        <p>To function effectively as an accessibility dialer and launcher, the App may request the following system permissions:</p>
+        <p>To function effectively as an accessibility dialer, launcher, and caregiver monitor, the App may request the following system permissions:</p>
         <ul>
-            <li><strong>Location (ACCESS_COARSE_LOCATION):</strong> Required to retrieve local weather data. This grants the app an approximate idea of your location (such as city or neighborhood) to populate the weather widget without tracking your precise pinpoint coordinates.</li>
+            <li><strong>Location (ACCESS_COARSE_LOCATION):</strong> Required to retrieve local weather data and securely share your approximate location with your linked caregiver during emergencies.</li>
             <li><strong>Telephony / Phone (CALL_PHONE):</strong> Required to allow the user to initiate direct phone calls via the large button interface.</li>
+            <li><strong>Do Not Disturb Access (ACCESS_NOTIFICATION_POLICY):</strong> Required to evaluate and alert caregivers if your device has been accidentally silenced or placed in Doze/DND mode.</li>
+            <li><strong>Standard System Permissions:</strong> The app utilizes automatically granted permissions including INTERNET and ACCESS_NETWORK_STATE (for syncing weather and caregiver alerts), RECEIVE_BOOT_COMPLETED (to safely restart medication schedules after a reboot), and WAKE_LOCK / VIBRATE (to successfully deliver critical medication and emergency alerts).</li>
         </ul>
 
         <h2>4. Log Data, Analytics, and Error Reporting</h2>
@@ -131,7 +133,7 @@
         <h2>6. Changes to This Privacy Policy</h2>
         <p>We may update our Privacy Policy from time to time to reflect changes in our practices or for legal compliance. We advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date at the top.</p>
 
-        <h2>7. Data Control & Deletion</h2>
+        <h2>7. Data Control &amp; Deletion</h2>
         <p>Because BigButton Dial™ does not use user accounts or store personal data on external servers, there is no user data for us to delete.</p>
         <p>For data automatically handled by third-party services (like Google AdMob or Firebase Analytics), users can control or delete their advertising data directly through their Android device settings by navigating to <strong>Settings &gt; Privacy &gt; Ads &gt; Delete advertising ID</strong>.</p>
 
