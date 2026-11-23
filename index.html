@@ -5,151 +5,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - BigButton Dial™</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #222222;
             background-color: #f8f9fa;
             margin: 0;
-            padding: 0;
+            padding: 24px 16px;
+            line-height: 1.65;
         }
         .container {
-            max-width: 800px;
-            margin: 40px auto;
+            max-width: 820px;
+            margin: 0 auto;
             background: #ffffff;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 36px 32px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+        }
+        .header {
+            border-bottom: 3px solid #2E7D32;
+            padding-bottom: 16px;
+            margin-bottom: 28px;
         }
         h1 {
-            color: #1a73e8;
-            font-size: 2.2rem;
-            margin-bottom: 0.5rem;
+            color: #1B5E20;
+            font-size: 2rem;
+            margin: 0 0 8px 0;
+            line-height: 1.25;
+        }
+        .subtitle {
+            font-size: 0.95rem;
+            color: #555555;
+            margin: 0;
         }
         h2 {
-            color: #202124;
-            font-size: 1.5rem;
-            margin-top: 2rem;
-            border-bottom: 1px solid #e8eaed;
-            padding-bottom: 0.5rem;
+            color: #1B5E20;
+            font-size: 1.3rem;
+            border-left: 4px solid #4CAF50;
+            padding-left: 12px;
+            margin-top: 32px;
+            margin-bottom: 12px;
         }
         h3 {
-            color: #3c4043;
-            font-size: 1.15rem;
-            margin-top: 1.5rem;
+            color: #2E7D32;
+            font-size: 1.08rem;
+            margin-top: 20px;
+            margin-bottom: 8px;
         }
         p, li {
             font-size: 1rem;
-            color: #5f6368;
+            color: #333333;
+        }
+        p {
+            margin: 0 0 14px 0;
         }
         ul {
-            padding-left: 20px;
+            margin: 6px 0 16px 0;
+            padding-left: 24px;
         }
         li {
             margin-bottom: 8px;
         }
         a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
+            color: #1976D2;
             text-decoration: underline;
         }
-        .effective-date {
-            font-style: italic;
-            color: #70757a;
-            margin-bottom: 2rem;
+        .highlight-box {
+            background-color: #E8F5E9;
+            border: 1px solid #A5D6A7;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 24px 0;
         }
-        hr {
-            border: 0;
-            height: 1px;
-            background: #e8eaed;
-            margin: 2rem 0;
+        .highlight-box p {
+            margin: 0;
+            color: #1B5E20;
+            font-weight: 600;
+            font-size: 0.96rem;
         }
-        footer {
-            margin-top: 3rem;
+        .footer {
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #DDDDDD;
+            font-size: 0.9rem;
+            color: #666666;
             text-align: center;
-            font-size: 0.85rem;
-            color: #9aa0a6;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px 18px;
+            }
+            h1 {
+                font-size: 1.65rem;
+            }
         }
     </style>
 </head>
 <body>
-
 <div class="container">
-    <header>
+
+    <div class="header">
         <h1>Privacy Policy for BigButton Dial™</h1>
-        <p class="effective-date">Effective Date: October 14, 2026</p>
-    </header>
+        <p class="subtitle">
+            <strong>Effective Date:</strong> November 22, 2026<br>
+            <em>Applies to BigButton Dial™ (also published as BotónGrandón Llama, BotãoGrandão Chama, and BonBouton Appel)</em>
+        </p>
+    </div>
 
-    <main>
-        <p>Welcome to <strong>BigButton Dial™</strong> ("we," "our," or "us"). We are committed to protecting the privacy of our users, particularly seniors and individuals requiring accessibility features. This Privacy Policy explains how we handle information when you use our mobile application (the "App").</p>
-        <p>By downloading and using BigButton Dial™, you agree to the collection and use of information in accordance with this policy.</p>
+    <p>Welcome to <strong>BigButton Dial™</strong> ("we," "our," or "us"). We are committed to protecting the privacy of our users, particularly seniors, families, and individuals using accessibility features. This Privacy Policy explains what information is processed on your device, what limited data is transmitted if you enable optional features, and your privacy rights when using our Android mobile application (the "App").</p>
 
-        <hr>
+    <p>By downloading and using BigButton Dial™, you agree to the practices described in this Privacy Policy.</p>
 
-        <h2>1. Information Collection and Use</h2>
-        <p>Our core philosophy is simple: <strong>Your personal identity belongs to you.</strong> We do not collect, store, or transmit your personally identifiable information to external servers. However, to monitor app stability and provide remote caregiver features, we collect anonymized, aggregated usage statistics and specific telemetry data as detailed below.</p>
+    <h2>1. Information Stored Strictly on Your Device</h2>
+    <p>Our core design principle is data minimization. You do not need to create an account or provide your name, email address, or phone number to us to use BigButton Dial™.</p>
+    <ul>
+        <li><strong>Contacts &amp; Speed-Dial Buttons:</strong> Contacts you add to your Family, Medical, or Birthday lists are selected individually through Android's system contact picker without granting the App broad access to read your entire address book. Selected contact names, nicknames, phone numbers, birthdays, and cropped avatars are stored strictly in private, sandboxed storage on your device.</li>
+        <li><strong>Dashboard Photos &amp; Profile Settings:</strong> Photos you select for your dashboard slideshow (including optional descriptions or dates), your optional display first name, and your medication reminder times remain stored locally on your device.</li>
+        <li><strong>Cloud Backup Disabled:</strong> Android OS cloud backups and device-to-device data extraction are disabled for the App so your local contact lists, photos, and settings are not uploaded to external backup servers.</li>
+    </ul>
 
-        <h3>Personal Data</h3>
-        <ul>
-            <li><strong>No PII Storage:</strong> We do not collect personal identification information such as your name, phone number, email address, or address book contacts.</li>
-            <li><strong>On-Device Only:</strong> Any configuration data or app settings you choose to set up inside BigButton Dial™ remain stored strictly on your local device.</li>
-        </ul>
+    <h2>2. Approximate Location Data</h2>
+    <p>With your permission (<code>ACCESS_COARSE_LOCATION</code>), BigButton Dial™ accesses your device's <strong>approximate location</strong> (city/neighborhood level; never pinpoint GPS fine location) for two specific purposes:</p>
+    <ul>
+        <li><strong>Local Weather Dashboard (All Tiers):</strong> When the App is open, approximate coordinates are used to resolve your general city/region name via the Android Geocoder and fetch local weather forecasts directly from Open-Meteo.</li>
+        <li><strong>Optional Caregiver Monitoring &amp; Alerts (Linked Subscribers Only):</strong> If you subscribe to <em>Guardian Essentials</em> and actively link a caregiver device (see Section 3), the App caches your most recent approximate location while open in the foreground and attaches approximate coordinates (and their capture timestamp) to caregiver emergency/escalation alerts and routine 3-hour status syncs. We do not maintain a historical location database on our servers.</li>
+    </ul>
+    <p>Location access is optional. You can deny or revoke location permission at any time in your Android system settings, and the dialer will continue to function without local weather or caregiver map pins.</p>
 
-        <h3>Location and Telemetry Data</h3>
-        <p>To provide weather forecasting and remote caregiver monitoring (Guardian Companion App), the App requires access to your device's approximate location.</p>
-        <ul>
-            <li><strong>Purpose:</strong> We use your approximate location to fetch real-time weather updates and to provide a general "last known location" to your authorized caregiver during emergency escalations or inactivity alerts.</li>
-            <li><strong>Processing &amp; Transmission:</strong> This data is processed dynamically to fetch weather data from our third-party provider (Open-Meteo). Additionally, if you have linked a caregiver, telemetry payloads containing this approximate location, battery levels, device volume, and medication status are securely transmitted through our backend to your authorized caregiver's Guardian app.</li>
-            <li><strong>Storage:</strong> We do not track your location continuously in the background. The app caches your last known approximate location while the app is actively used in the foreground and temporarily stores it securely on your local device to transmit during background safety syncs. We do not store or share your historical location history on our servers.</li>
-        </ul>
+    <h2>3. Optional Caregiver Linking (BigButton Guardian™)</h2>
+    <p>Users with an active <strong>Guardian Essentials</strong> subscription may optionally link BigButton Dial™ to a trusted family member or caregiver using the companion <a href="https://bigbutton-guardian-privacy.bigbutton-dial.com/" target="_blank" rel="noopener">BigButton Guardian™</a> app via a user-generated 6-digit pairing PIN.</p>
+    <p><strong>Only when caregiver linking is enabled</strong>, the App transmits encrypted status snapshots through our Firebase Cloud Functions backend and Firebase Cloud Messaging (FCM) to your linked caregiver's device:</p>
+    <ul>
+        <li><strong>Device &amp; Safety Telemetry:</strong> Battery percentage, charging status, ringer volume percentage, mute status, Wi-Fi/cellular/airplane connectivity status, device time zone, and first/last daily screen interaction timestamps.</li>
+        <li><strong>Medication Schedule Status:</strong> Scheduled reminder times (Morning, Afternoon, Evening) and adherence state (pending, due, overdue, missed, or time acknowledged). The App never collects or transmits medication names, dosages, or medical diagnoses.</li>
+        <li><strong>Emergency &amp; Escalation Events:</strong> Notifications when the primary emergency contact or emergency services button is triggered, or when low battery, muted/low volume, missed medication, or daily inactivity persists past safety thresholds (including approximate location coordinates when location permission is granted).</li>
+        <li><strong>Anonymous Security Identifiers:</strong> Pairing and routing use a random, non-personal Firebase Anonymous Authentication UID, FCM push tokens, and Google Play Integrity (Firebase App Check) attestation tokens to block unauthorized traffic.</li>
+    </ul>
 
-        <h2>2. Third-Party Services and SDKs</h2>
-        <p>To provide specific functionalities, trace app performance, and support app sustainability through advertisements, BigButton Dial™ utilizes trusted third-party software development kits (SDKs). These external providers may collect information used to identify your device.</p>
-        <p>You can review the privacy policies of the third-party providers we use below:</p>
-        <ul>
-            <li><strong>Google Play Services:</strong> Used for core app functionality, licensing, and stability. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
-            <li><strong>Google Analytics for Firebase (Firebase Analytics):</strong> Used to collect completely anonymized usage behaviors (such as button interactions, screen views, and retention statistics) to help us understand how the app is used and improve its interface. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
-            <li><strong>Google AdMob:</strong> Used to display advertisements within the app. AdMob may utilize your device's Advertising ID to serve relevant ads. <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Policies</a></li>
-            <li><strong>Open-Meteo:</strong> Used to fetch current weather conditions and forecasts based on approximate location coordinates. <a href="https://open-meteo.com/en/privacy" target="_blank" rel="noopener">Open-Meteo Privacy Policy</a></li>
-        </ul>
+    <h2>4. Subscriptions, Advertising, and Third-Party SDKs</h2>
+    <p>To deliver core features, process optional subscriptions, maintain stability, and support the Free tier, the App integrates the following trusted service providers:</p>
+    <ul>
+        <li><strong>Google Play Billing &amp; RevenueCat (Subscriptions):</strong> Optional <em>Guardian Essentials</em> subscriptions and free trials are billed directly by Google Play. We use RevenueCat to validate anonymous purchase tokens and subscription entitlements. We never receive or store your credit card number, billing address, or financial account details. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> | <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>)</li>
+        <li><strong>Google AdMob (Free Tier Only):</strong> Banner advertisements are displayed exclusively on the Free tier (ads are disabled for paid subscribers). Google AdMob and its certified ad technology providers may use your device's Android Advertising ID, coarse IP-derived location, and ad diagnostic signals for ad serving, frequency capping, and fraud prevention. For users in Brazil, ad serving is automatically restricted to Google's LGPD-certified providers. (<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google Uses Data</a> | <a href="https://support.google.com/admob/answer/9931967" target="_blank" rel="noopener">Google LGPD Ad Tech Providers</a>)</li>
+        <li><strong>Firebase Analytics &amp; Firebase Crashlytics:</strong> Used to collect pseudonymized, aggregated usage milestones (such as onboarding and feature setup completion) and crash stack traces (device model, Android OS version, error logs) solely to fix bugs and improve reliability. (<a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy &amp; Security</a>)</li>
+        <li><strong>Firebase Authentication, App Check &amp; Cloud Messaging:</strong> Used to verify genuine app installations via Google Play Integrity and securely route optional caregiver pairing and alert messages.</li>
+        <li><strong>Open-Meteo:</strong> Used to retrieve local weather forecasts from approximate coordinates without user identifiers. (<a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo Terms &amp; Privacy</a>)</li>
+    </ul>
+    <p>We do <strong>not</strong> sell, rent, or trade your personal information, contacts, photos, or caregiver telemetry to third parties or data brokers.</p>
 
-        <h2>3. Device Permissions Required</h2>
-        <p>To function effectively as an accessibility dialer, launcher, and caregiver monitor, the App may request the following system permissions:</p>
-        <ul>
-            <li><strong>Location (ACCESS_COARSE_LOCATION):</strong> Required to retrieve local weather data and securely share your approximate location with your linked caregiver during emergencies.</li>
-            <li><strong>Telephony / Phone (CALL_PHONE):</strong> Required to allow the user to initiate direct phone calls via the large button interface.</li>
-            <li><strong>Do Not Disturb Access (ACCESS_NOTIFICATION_POLICY):</strong> Required to evaluate and alert caregivers if your device has been accidentally silenced or placed in Doze/DND mode.</li>
-            <li><strong>Standard System Permissions:</strong> The app utilizes automatically granted permissions including INTERNET and ACCESS_NETWORK_STATE (for syncing weather and caregiver alerts), RECEIVE_BOOT_COMPLETED (to safely restart medication schedules after a reboot), and WAKE_LOCK / VIBRATE (to successfully deliver critical medication and emergency alerts).</li>
-        </ul>
+    <h2>5. Device Permissions Explained</h2>
+    <ul>
+        <li><strong>Phone (<code>CALL_PHONE</code>):</strong> Required to place direct phone and voicemail calls when you long-press a contact or emergency button.</li>
+        <li><strong>Approximate Location (<code>ACCESS_COARSE_LOCATION</code>):</strong> Optional; used for local weather forecasts and (if linked) approximate location sharing with your designated caregiver.</li>
+        <li><strong>Do Not Disturb / Notification Policy Access (<code>ACCESS_NOTIFICATION_POLICY</code>):</strong> Optional; allows the App to restore ringer volume when Do Not Disturb is active and display spam-call firewall settings.</li>
+        <li><strong>System Utilities (<code>RECEIVE_BOOT_COMPLETED</code>, <code>WAKE_LOCK</code>, <code>VIBRATE</code>, <code>INTERNET</code>):</strong> Used to reschedule medication and battery/volume safety checks after a device reboot, wake the screen for reminders, provide tactile feedback, and connect to weather/cloud services.</li>
+    </ul>
 
-        <h2>4. Log Data, Analytics, and Error Reporting</h2>
-        <p>To ensure high performance and refine our accessibility interface, the App automatically logs basic diagnostic and analytics data via Google Play Console and Firebase Analytics. This data may include your device's anonymized mobile tracking identifiers (such as the Android Advertising ID), device name, operating system version, internal app event counts (e.g., taps on specific buttons), and the time and date of your use. This information is entirely pseudonymized and aggregated; it cannot be used to identify you personally and is utilized solely to fix bugs and enhance usability.</p>
+    <h2>6. Data Retention, Control &amp; Deletion</h2>
+    <ul>
+        <li><strong>Local App Data:</strong> You can edit or delete contacts, photos, and settings inside the App at any time, or erase all local App data permanently by clearing App storage or uninstalling BigButton Dial™.</li>
+        <li><strong>Caregiver Pairing &amp; Server Records:</strong> Temporary 6-digit pairing codes expire automatically within 15 minutes (or immediately upon use). Duplicate-prevention alert IDs expire automatically after 7 days. Telemetry payloads are forwarded to your linked caregiver and are not archived in a server database. If your subscription expires or your caregiver unlinks, the pairing record on our server is deleted immediately. Inactive, unpaired anonymous Firebase IDs are automatically purged after 30 days.</li>
+        <li><strong>Advertising ID Controls:</strong> You can reset or permanently delete your Android Advertising ID at any time on your phone under <strong>Settings &gt; Privacy &gt; Ads &gt; Delete advertising ID</strong> (or <em>Opt out of Ads Personalization</em>).</li>
+        <li><strong>Deletion Requests:</strong> If you have used caregiver linking and wish to request manual verification or immediate deletion of your anonymous pairing record, email us at <a href="mailto:bigbutton-dial@bigbutton-dial.com">bigbutton-dial@bigbutton-dial.com</a>.</li>
+    </ul>
 
-        <h2>5. Children's Privacy</h2>
-        <p>BigButton Dial™ is explicitly designed for seniors and general accessibility purposes. It does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we discover that a child under 13 has provided us with personal information, we immediately delete this from our local configurations.</p>
+    <h2>7. Regional Privacy Rights (Brazil LGPD &amp; Mexico LFPDPPP)</h2>
 
-        <h2>6. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time to reflect changes in our practices or for legal compliance. We advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date at the top.</p>
+    <h3>A. Users in Brazil (Lei Geral de Proteção de Dados — LGPD, Law No. 13.709/2018)</h3>
+    <p>We process limited technical data under the legal bases of executing functionalities requested by you (weather, subscriptions, and optional caregiver alerts), legitimate interest (app security, Play Integrity fraud prevention, crash diagnostics, and contextual free-tier sustainability), and your consent (optional Android OS permissions, which you may revoke at any time). Under Article 18 of the LGPD, Brazilian users have the right to request confirmation of processing, access, correction, anonymization, blocking, or deletion of unnecessary data, information about third-party sharing, and revocation of consent by contacting <a href="mailto:bigbutton-dial@bigbutton-dial.com">bigbutton-dial@bigbutton-dial.com</a>.</p>
 
-        <h2>7. Data Control &amp; Deletion</h2>
-        <p>Because BigButton Dial™ does not use user accounts or store personal data on external servers, there is no user data for us to delete.</p>
-        <p>For data automatically handled by third-party services (like Google AdMob or Firebase Analytics), users can control or delete their advertising data directly through their Android device settings by navigating to <strong>Settings &gt; Privacy &gt; Ads &gt; Delete advertising ID</strong>.</p>
+    <h3>B. Users in Mexico (Aviso de Privacidad — 2025 LFPDPPP)</h3>
+    <p>In accordance with Mexico's <em>Ley Federal de Protección de Datos Personales en Posesión de los Particulares</em> (LFPDPPP, overseen by the <em>Secretaría Anticorrupción y Buen Gobierno</em>), <strong>BigButton Dial™</strong> (contactable at <a href="mailto:bigbutton-dial@bigbutton-dial.com">bigbutton-dial@bigbutton-dial.com</a>) acts as the data controller for technical identifiers processed by the App:</p>
+    <ul>
+        <li><strong>Primary Purposes (Necessary for Requested Service):</strong> Delivering local weather, validating subscription status, preventing unauthorized API access, fixing crashes, and—only when explicitly enabled by you—routing device safety and medication adherence status to your linked caregiver.</li>
+        <li><strong>Secondary Purposes:</strong> Displaying Free-tier banner advertisements via Google AdMob and recording aggregated, anonymized usage analytics. You may limit or opt out of advertising identifiers at any time via <strong>Android Settings &gt; Privacy &gt; Ads</strong>.</li>
+        <li><strong>Data Transfers:</strong> Technical identifiers and optional caregiver payloads are processed through infrastructure operated by Google LLC (Firebase / AdMob) and RevenueCat, Inc. exclusively for the purposes described in Section 4.</li>
+        <li><strong>ARCO Rights &amp; Revocation:</strong> You may exercise your rights of Access, Rectification, Cancellation, and Opposition (<em>Derechos ARCO</em>) or revoke consent by emailing <a href="mailto:bigbutton-dial@bigbutton-dial.com">bigbutton-dial@bigbutton-dial.com</a> with a description of your request (and, if applicable, the approximate date your device was linked). We will respond within 20 business days and execute approved requests within 15 business days in accordance with statutory timelines.</li>
+    </ul>
 
-        <h2>8. Contact Us</h2>
-        <p>If you have any questions, suggestions, or feedback regarding this Privacy Policy, please contact us at:</p>
-        <ul>
-            <li><strong>Website:</strong> <a href="https://bigbutton-dial.com" target="_blank">https://bigbutton-dial.com</a></li>
-            <li><strong>Email:</strong> bigbutton-dial@bigbutton-dial.com</li>
-        </ul>
+    <h2>8. Children's Privacy</h2>
+    <p>BigButton Dial™ is designed for seniors, adults, and accessibility support and is not directed to children under the age of 13 (or the minimum age required by local law). We do not knowingly collect personal information from children.</p>
 
-    </main>
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy periodically to reflect new features or regulatory requirements. Any updates will be posted at this URL with a revised Effective Date at the top of the page.</p>
 
-    <footer>
-        <p>&copy; 2026 BigButton Dial™. All rights reserved.</p>
-    </footer>
+    <div class="highlight-box">
+        <p>Safety &amp; Medical Disclaimer: BigButton Dial™ is provided "as is" as a convenience and accessibility tool. It is NOT a certified medical device or emergency dispatch service, and it does not replace dialing emergency services (such as 911 or 190) directly.</p>
+    </div>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions, privacy requests, or feedback regarding this Privacy Policy, please contact us at:</p>
+    <p>
+        <strong>Email:</strong> <a href="mailto:bigbutton-dial@bigbutton-dial.com">bigbutton-dial@bigbutton-dial.com</a><br>
+        <strong>Website:</strong> <a href="https://bigbutton-dial.com" target="_blank" rel="noopener">https://bigbutton-dial.com</a>
+    </p>
+
+    <div class="footer">
+        &copy; 2026 BigButton Dial™. All rights reserved.
+    </div>
+
 </div>
-
 </body>
 </html>
